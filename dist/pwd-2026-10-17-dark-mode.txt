@@ -1,0 +1,60 @@
+Plain-Word Digest - October 17, 2026
+--------------------------------------------------------------------------
+
+The short version, in one line:
+  Why some emails turn into white-on-white puddles in Gmail, and what this
+  newsletter does about it.
+
+--------------------------------------------------------------------------
+IN THIS ISSUE
+  * The white-on-white problem, in one paragraph
+  * Tables are the quiet workhorse
+
+--------------------------------------------------------------------------
+THE WHITE-ON-WHITE PROBLEM, IN ONE PARAGRAPH
+
+When your phone switches to dark mode, some email apps quietly fix your
+colors for you. They might paint the background dark but forget your text
+was already a dark color - so your words vanish.
+
+The fix is simple and a little stubborn: put an explicit background color
+and an explicit text color on almost every piece of your email. When you
+set the colors yourself, the app stops inventing them.
+
+--------------------------------------------------------------------------
+TABLES ARE THE QUIET WORKHORSE
+
+Modern web pages use fancy layout tools that email apps mostly ignore.
+That is not nostalgia - it is that the oldest, plainest building block,
+the table, is understood by literally every inbox on earth.
+
+So this newsletter's template is built from tables with inline styles: one
+wide wrapper, one fixed 600-pixel-wide card, header band, story slots, a
+single callout, and the footer. It looks the same in Gmail as it does in
+Outlook.
+
+If you ever forward this issue, it survives the trip. That, not
+cleverness, is the goal.
+
+Link (Plain-Word Digest test results and the open-source template):
+  https://dylanasdale.github.io/
+
+--------------------------------------------------------------------------
+ONE THING WORTH YOUR TIME
+
+Tonight, switch your phone's mail app to dark mode and re-read this issue.
+Notice anything unreadable? That is exactly the failure mode this template
+designs against.
+
+Get the template:
+  https://dylanasdale.github.io/
+
+--------------------------------------------------------------------------
+Why you got this: you subscribed to Plain-Word Digest at
+dylanasdale.github.io. Dated October 17, 2026.
+Sent by Asdale Dynamics, LLC. Postal address: Asdale Dynamics, LLC,
+Example Address, Indiana, USA.
+Unsubscribe in one click:
+  https://example.com/unsubscribe?token=PLACEHOLDER#list=plain-word-digest
+
+Plain in, plain out.

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--
+  plain-email-newsletter-template - issue.template.html
+
+  One-source-per-piece newsletter shell: table-based, inline styles everywhere,
+  explicit colors on every cell so Gmail (app + web), Outlook, and dark-mode
+  clients keep the design you picked instead of inventing their own.
+
+  build.py fills in these tokens (brace-delimited):
+    PREHEADER     hidden preview text shown beside the subject in Gmail
+    HEADER_TITLE  newsletter name in the header band
+    HEADER_DATE   issue date / number line
+    STORIES       rendered story slots (one table per story)
+    CALLOUT       rendered one-link callout
+    FOOTER        rendered honest footer
+
+  Story slots, the callout, and the footer are reused sections marked with
+  comments (section:start / section:end). Change their look once, here, and
+  every issue follows.
+-->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="x-apple-disable-message-reformatting">
+<meta name="color-scheme" content="only light">
+<meta name="supported-color-schemes" content="only light">
+<title>Plain-Word Digest #3: notes, not wake-up calls</title>
+<!--[if mso]>
+<xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml>
+<![endif]-->
+</head>
+<body style="margin:0;padding:0;background-color:#f4f2ec;color:#1c1c1c;font-family:Arial,Helvetica,sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;">
+
+<!-- preheader: invisible; Gmail shows it next to the subject line -->
+<div style="display:none;font-size:1px;max-height:0;max-width:0;opacity:0;overflow:hidden;color:#f4f2ec;line-height:1px;">How busy healthcare workers can use AI to make short study notes. Education support only, never advice.&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;</div>
+
+<!-- outer wrapper -->
+<table role="presentation" bgcolor="#f4f2ec" style="width:100%;background-color:#f4f2ec;" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td align="center" style="padding:24px 12px;color:#1c1c1c;">
+
+  <!-- message container: fixed 600px so we never fight a client's inbox toolbars -->
+  <table role="presentation" bgcolor="#ffffff" style="width:600px;max-width:600px;background-color:#ffffff;border:1px solid #e3ded3;border-radius:8px;" cellpadding="0" cellspacing="0" border="0">
+  <tr>
+  <td style="padding:0;color:#1c1c1c;">
+
+    <!-- header:start -->
+    <table role="presentation" width="100%" bgcolor="#0f4c50" style="background-color:#0f4c50;border-radius:7px 7px 0 0;" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+    <td style="padding:28px 28px 20px 28px;color:#ffffff;">
+      <span style="font-family:Arial,Helvetica,sans-serif;font-size:24px;line-height:28px;font-weight:bold;color:#ffffff;">Plain-Word Digest</span>
+    </td>
+    </tr>
+    <tr>
+    <td style="padding:0 28px 24px 28px;color:#d9ebea;font-family:Arial,Helvetica,sans-serif;font-size:13px;line-height:18px;">
+      October 31, 2026
+    </td>
+    </tr>
+    </table>
+    <!-- header:end -->
+
+    <!-- stories:start -->
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" style="background-color:#ffffff;"><tr><td style="padding:26px 28px 0 28px;font-family:Arial,Helvetica,sans-serif;font-size:20px;line-height:26px;font-weight:bold;color:#1c1c1c;">Notes, not wake-up calls</td></tr><tr><td style="padding:12px 28px 0 28px;font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:24px;color:#1c1c1c;">A quick story from an earlier life: for years at the bedside, education meant getting handed a huge binder and a highlighter at the worst possible hour. Learning does not have to feel like that.</td></tr><tr><td style="padding:12px 28px 0 28px;font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:24px;color:#1c1c1c;">AI can help you study between shifts, in small pieces, on your schedule. But the boundary matters, so it is stated plainly: AI is education support here. It is never medical advice, and this newsletter will never tell you what to do for a patient or for yourself medically.</td></tr><tr><td style="padding:12px 28px 0 28px;font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:24px;color:#1c1c1c;">What AI is good at is the boring half of learning: restating things, checking that your explanation is consistent, keeping your notes short and calm, and making five minutes count.</td></tr><tr><td style="padding:22px 28px 0 28px;"><hr style="border:none;border-top:1px solid #e3ded3;margin:0;"></td></tr></table><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" style="background-color:#ffffff;"><tr><td style="padding:26px 28px 0 28px;font-family:Arial,Helvetica,sans-serif;font-size:20px;line-height:26px;font-weight:bold;color:#1c1c1c;">The five-minute note-sketch</td></tr><tr><td style="padding:12px 28px 0 28px;font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:24px;color:#1c1c1c;">Pick one small thing you learned this week - one workflow idea, one systems concept, one thing that made your shift smoother. Ask an assistant to restate it in three plain sentences.</td></tr><tr><td style="padding:12px 28px 0 28px;font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:24px;color:#1c1c1c;">Read those three sentences, fix the two that are wrong, and keep what is left. That is a note that sticks, built by you, in five minutes.</td></tr><tr><td style="padding:12px 28px 0 28px;font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:24px;color:#1c1c1c;">This is education support. It is study hygiene, not clinical judgment - and the judgment stays with the people whose job it is.</td></tr><tr><td style="padding:14px 28px 0 28px;font-family:Arial,Helvetica,sans-serif;"><a href="https://dylanasdale.github.io/" target="_blank" rel="noopener noreferrer" style="color:#0f4c50;text-decoration:underline;">dylanasdale.github.io - plain-English AI learning hub</a></td></tr><tr><td style="padding:22px 28px 0 28px;"><hr style="border:none;border-top:1px solid #e3ded3;margin:0;"></td></tr></table><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" style="background-color:#ffffff;"><tr><td style="padding:18px 28px 30px 28px;font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:24px;color:#1c1c1c;">Small steps, clearly explained. That is the whole trick.</td></tr></table>
+    <!-- stories:end -->
+
+    <!-- callout:start (this block links to exactly one URL; keep it that way) -->
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td bgcolor="#fbfaf6" style="padding:28px;background-color:#fbfaf6;color:#1c1c1c;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td><p style="margin:0 0 16px 0;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:23px;color:#1c1c1c;"><strong style="color:#0f4c50;">One thing worth your time.</strong><br>Try one five-minute note-sketch this week: one thing you learned, restated simply, corrected by you.</p><table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin:0;"><tr><td bgcolor="#0f4c50" style="background-color:#0f4c50;border-radius:6px;"><a href="https://dylanasdale.github.io/" target="_blank" rel="noopener noreferrer" style="display:inline-block;padding:12px 22px;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:19px;font-weight:bold;color:#ffffff;text-decoration:none;border-radius:6px;">Start at the hub</a></td></tr></table></td></tr></table></td></tr></table><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding:28px 28px 0 28px;"><hr style="border:none;border-top:1px solid #e3ded3;margin:0;"></td></tr></table>
+    <!-- callout:end -->
+
+    <!-- footer:start (honest footer: who, why, how-to-stop, address) -->
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" style="background-color:#ffffff;"><tr><td style="padding:6px 28px 30px 28px;font-family:Arial,Helvetica,sans-serif;font-size:13px;line-height:20px;color:#5f5a4e;"><p style="margin:0 0 10px 0;">Why you got this: you subscribed to Plain-Word Digest at dylanasdale.github.io. This issue is dated October 31, 2026.</p><p style="margin:0 0 10px 0;">Sent by Asdale Dynamics, LLC. Postal address: Asdale Dynamics, LLC, Example Address, Indiana, USA.</p><p style="margin:0 0 10px 0;">Done for now: <a href="https://example.com/unsubscribe?token=PLACEHOLDER#list=plain-word-digest" target="_blank" rel="noopener noreferrer" style="color:#0f4c50;text-decoration:underline;">unsubscribe in one click</a>. No guilt, no "did you mean to leave?" maze.</p><p style="margin:0;">Plain in, plain out. The template that made this is MIT licensed - see the repository README.</p></td></tr></table>
+    <!-- footer:end -->
+
+  </td>
+  </tr>
+  </table>
+
+</td>
+</tr>
+</table>
+
+</body>
+</html>

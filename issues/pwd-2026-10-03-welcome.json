@@ -1,0 +1,40 @@
+{
+  "slug": "pwd-2026-10-03-welcome",
+  "subject": "Plain-Word Digest #1: start with one small AI task",
+  "preheader": "A newsletter that explains AI like a friend would. Issue one starts smaller than you think.",
+  "header_title": "Plain-Word Digest",
+  "date": "October 3, 2026",
+  "stories": [
+    {
+      "title": "Welcome - this is the slow lane",
+      "paragraphs": [
+        "Hello, and thank you for signing up. This newsletter does one job: it explains the AI tools in your life in plain English, step by step, without making you feel behind.",
+        "Every issue has three parts: a few short stories, one link worth your time, and an unsubscribe link at the very bottom that works in one click. No tricks, no homework.",
+        "You will never need prior experience. If something can be explained like a friend would, that is how it gets explained here."
+      ]
+    },
+    {
+      "title": "Start with one small task, not a big project",
+      "paragraphs": [
+        "Most people quit with AI in week one for a boring reason: they pick a goal the size of a monument. Rewrite my whole resume. Automate my entire inbox. Instead, pick something that takes five minutes and holds no risk.",
+        "Good first tasks: draft a grocery list around a budget, rewrite one confusing email into a friendly one, or summarize an article you saved last month but never finished.",
+        "The win is not the task. The win is learning the rhythm of asking, reading, and fixing - which is the same rhythm for everything bigger later."
+      ],
+      "link": {
+        "label": "The Massive AI Manual - the book this digest grew out of",
+        "url": "https://dylanasdale.github.io/"
+      }
+    }
+  ],
+  "callout": {
+    "text": "Pick one five-minute task tonight and let any AI assistant try it. If the answer is wrong, that is a normal result, not a personal failure - just tell it what to fix.",
+    "url": "https://dylanasdale.github.io/",
+    "label": "Visit the hub site"
+  },
+  "footer": {
+    "sender": "Asdale Dynamics, LLC",
+    "signup_source": "dylanasdale.github.io",
+    "unsubscribe_url": "https://example.com/unsubscribe?token=PLACEHOLDER#list=plain-word-digest",
+    "postal_address": "Asdale Dynamics, LLC, Example Address, Indiana, USA"
+  }
+}

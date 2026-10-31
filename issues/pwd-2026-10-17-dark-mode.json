@@ -1,0 +1,39 @@
+{
+  "slug": "pwd-2026-10-17-dark-mode",
+  "subject": "Plain-Word Digest #2: emails that survive dark mode",
+  "preheader": "Why some emails turn into white-on-white puddles in Gmail, and what this newsletter does about it.",
+  "header_title": "Plain-Word Digest",
+  "date": "October 17, 2026",
+  "stories": [
+    {
+      "title": "The white-on-white problem, in one paragraph",
+      "paragraphs": [
+        "When your phone switches to dark mode, some email apps quietly fix your colors for you. They might paint the background dark but forget your text was already a dark color - so your words vanish.",
+        "The fix is simple and a little stubborn: put an explicit background color and an explicit text color on almost every piece of your email. When you set the colors yourself, the app stops inventing them."
+      ]
+    },
+    {
+      "title": "Tables are the quiet workhorse",
+      "paragraphs": [
+        "Modern web pages use fancy layout tools that email apps mostly ignore. That is not nostalgia - it is that the oldest, plainest building block, the table, is understood by literally every inbox on earth.",
+        "So this newsletter's template is built from tables with inline styles: one wide wrapper, one fixed 600-pixel-wide card, header band, story slots, a single callout, and the footer. It looks the same in Gmail as it does in Outlook.",
+        "If you ever forward this issue, it survives the trip. That, not cleverness, is the goal."
+      ],
+      "link": {
+        "label": "Plain-Word Digest test results and the open-source template",
+        "url": "https://dylanasdale.github.io/"
+      }
+    }
+  ],
+  "callout": {
+    "text": "Tonight, switch your phone's mail app to dark mode and re-read this issue. Notice anything unreadable? That is exactly the failure mode this template designs against.",
+    "url": "https://dylanasdale.github.io/",
+    "label": "Get the template"
+  },
+  "footer": {
+    "sender": "Asdale Dynamics, LLC",
+    "signup_source": "dylanasdale.github.io",
+    "unsubscribe_url": "https://example.com/unsubscribe?token=PLACEHOLDER#list=plain-word-digest",
+    "postal_address": "Asdale Dynamics, LLC, Example Address, Indiana, USA"
+  }
+}

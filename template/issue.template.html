@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--
+  plain-email-newsletter-template - issue.template.html
+
+  One-source-per-piece newsletter shell: table-based, inline styles everywhere,
+  explicit colors on every cell so Gmail (app + web), Outlook, and dark-mode
+  clients keep the design you picked instead of inventing their own.
+
+  build.py fills in these tokens (brace-delimited):
+    PREHEADER     hidden preview text shown beside the subject in Gmail
+    HEADER_TITLE  newsletter name in the header band
+    HEADER_DATE   issue date / number line
+    STORIES       rendered story slots (one table per story)
+    CALLOUT       rendered one-link callout
+    FOOTER        rendered honest footer
+
+  Story slots, the callout, and the footer are reused sections marked with
+  comments (section:start / section:end). Change their look once, here, and
+  every issue follows.
+-->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="x-apple-disable-message-reformatting">
+<meta name="color-scheme" content="only light">
+<meta name="supported-color-schemes" content="only light">
+<title>{SUBJECT}</title>
+<!--[if mso]>
+<xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml>
+<![endif]-->
+</head>
+<body style="margin:0;padding:0;background-color:#f4f2ec;color:#1c1c1c;font-family:Arial,Helvetica,sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;">
+
+<!-- preheader: invisible; Gmail shows it next to the subject line -->
+<div style="display:none;font-size:1px;max-height:0;max-width:0;opacity:0;overflow:hidden;color:#f4f2ec;line-height:1px;">{PREHEADER}&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;</div>
+
+<!-- outer wrapper -->
+<table role="presentation" bgcolor="#f4f2ec" style="width:100%;background-color:#f4f2ec;" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td align="center" style="padding:24px 12px;color:#1c1c1c;">
+
+  <!-- message container: fixed 600px so we never fight a client's inbox toolbars -->
+  <table role="presentation" bgcolor="#ffffff" style="width:600px;max-width:600px;background-color:#ffffff;border:1px solid #e3ded3;border-radius:8px;" cellpadding="0" cellspacing="0" border="0">
+  <tr>
+  <td style="padding:0;color:#1c1c1c;">
+
+    <!-- header:start -->
+    <table role="presentation" width="100%" bgcolor="#0f4c50" style="background-color:#0f4c50;border-radius:7px 7px 0 0;" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+    <td style="padding:28px 28px 20px 28px;color:#ffffff;">
+      <span style="font-family:Arial,Helvetica,sans-serif;font-size:24px;line-height:28px;font-weight:bold;color:#ffffff;">{HEADER_TITLE}</span>
+    </td>
+    </tr>
+    <tr>
+    <td style="padding:0 28px 24px 28px;color:#d9ebea;font-family:Arial,Helvetica,sans-serif;font-size:13px;line-height:18px;">
+      {HEADER_DATE}
+    </td>
+    </tr>
+    </table>
+    <!-- header:end -->
+
+    <!-- stories:start -->
+    {STORIES}
+    <!-- stories:end -->
+
+    <!-- callout:start (this block links to exactly one URL; keep it that way) -->
+    {CALLOUT}
+    <!-- callout:end -->
+
+    <!-- footer:start (honest footer: who, why, how-to-stop, address) -->
+    {FOOTER}
+    <!-- footer:end -->
+
+  </td>
+  </tr>
+  </table>
+
+</td>
+</tr>
+</table>
+
+</body>
+</html>

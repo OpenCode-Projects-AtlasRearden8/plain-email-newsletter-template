@@ -1,0 +1,40 @@
+{
+  "slug": "pwd-2026-10-31-notes-not-wakeup-calls",
+  "subject": "Plain-Word Digest #3: notes, not wake-up calls",
+  "preheader": "How busy healthcare workers can use AI to make short study notes. Education support only, never advice.",
+  "header_title": "Plain-Word Digest",
+  "date": "October 31, 2026",
+  "stories": [
+    {
+      "title": "Notes, not wake-up calls",
+      "paragraphs": [
+        "A quick story from an earlier life: for years at the bedside, education meant getting handed a huge binder and a highlighter at the worst possible hour. Learning does not have to feel like that.",
+        "AI can help you study between shifts, in small pieces, on your schedule. But the boundary matters, so it is stated plainly: AI is education support here. It is never medical advice, and this newsletter will never tell you what to do for a patient or for yourself medically.",
+        "What AI is good at is the boring half of learning: restating things, checking that your explanation is consistent, keeping your notes short and calm, and making five minutes count."
+      ]
+    },
+    {
+      "title": "The five-minute note-sketch",
+      "paragraphs": [
+        "Pick one small thing you learned this week - one workflow idea, one systems concept, one thing that made your shift smoother. Ask an assistant to restate it in three plain sentences.",
+        "Read those three sentences, fix the two that are wrong, and keep what is left. That is a note that sticks, built by you, in five minutes.",
+        "This is education support. It is study hygiene, not clinical judgment - and the judgment stays with the people whose job it is."
+      ],
+      "link": {
+        "label": "dylanasdale.github.io - plain-English AI learning hub",
+        "url": "https://dylanasdale.github.io/"
+      }
+    }
+  ],
+  "callout": {
+    "text": "Try one five-minute note-sketch this week: one thing you learned, restated simply, corrected by you.",
+    "url": "https://dylanasdale.github.io/",
+    "label": "Start at the hub"
+  },
+  "footer": {
+    "sender": "Asdale Dynamics, LLC",
+    "signup_source": "dylanasdale.github.io",
+    "unsubscribe_url": "https://example.com/unsubscribe?token=PLACEHOLDER#list=plain-word-digest",
+    "postal_address": "Asdale Dynamics, LLC, Example Address, Indiana, USA"
+  }
+}

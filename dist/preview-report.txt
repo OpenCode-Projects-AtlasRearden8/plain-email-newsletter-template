@@ -1,0 +1,18 @@
+pwd-2026-10-03-welcome: clean
+  subject (50 chars): "Plain-Word Digest #1: start with one small AI task"
+    phone view   -> "Plain-Word Digest #1: start with one sma"  |...truncated
+    desktop view -> "Plain-Word Digest #1: start with one small AI task"
+  preheader (91 chars) shows beside the subject [OK]:
+    "A newsletter that explains AI like a friend would. Issue one starts smaller than you think."
+pwd-2026-10-17-dark-mode: clean
+  subject (51 chars): "Plain-Word Digest #2: emails that survive dark mode"
+    phone view   -> "Plain-Word Digest #2: emails that surviv"  |...truncated
+    desktop view -> "Plain-Word Digest #2: emails that survive dark mode"
+  preheader (98 chars) shows beside the subject [OK]:
+    "Why some emails turn into white-on-white puddles in Gmail, and what this newsletter does about it."
+pwd-2026-10-31-notes-not-wakeup-calls: clean
+  subject (46 chars): "Plain-Word Digest #3: notes, not wake-up calls"
+    phone view   -> "Plain-Word Digest #3: notes, not wake-up"  |...truncated
+    desktop view -> "Plain-Word Digest #3: notes, not wake-up calls"
+  preheader (103 chars) shows beside the subject [OK]:
+    "How busy healthcare workers can use AI to make short study notes. Education support only, never advice."
