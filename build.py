@@ -186,10 +186,6 @@ def _esc(text):
     return escape(str(text), quote=False)
 
 
-def _par_1():
-    return {}
-
-
 def _story_html(story):
     rows = [
         "<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" "
